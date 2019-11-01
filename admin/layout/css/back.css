@@ -1,0 +1,68 @@
+body{
+    background: #FAFAFA;
+}
+
+.form-control{
+    position: relative;
+}
+.fa-star{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: x-small;
+    color: red;
+}
+
+/* Dashboard*/
+.home-stats .stat{
+    background-color: #EEE;
+}
+.home-stats .row a{
+    text-decoration: none;
+}
+.home-stats .s-member{
+    background-color: #7460ee;
+}
+.home-stats .s-panding{
+    background-color: #fc4b6c;
+}
+.home-stats .s-item{
+    background-color: #1e88e5;
+}
+.home-stats .s-comment{
+    background-color: #ffb22b;
+}
+
+/*Categories Page*/
+.list-group .button-hidden{
+    overflow: hidden;
+}
+.list-group .button-hidden .links{
+    right: 0px;
+    top:5px;
+}
+.catagorie{
+    position: relative;
+    overflow: hidden;
+}
+.catagorie .btn-sitting{
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    position: absolute;
+    right: -200px;
+    top: 5px;
+    margin-right: 15px;
+}
+.catagorie:hover .btn-sitting{
+    right: 0px;
+}
+.catagorie h3{
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.catagorie .info p{
+    margin: 10px 0;
+}
+
