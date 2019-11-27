@@ -1,0 +1,84 @@
+.btn-search {
+    transition: all .5s ease-in-out;
+}
+
+/*Upper Bar*/
+.upper-bar .upper-cont {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px) {
+    .upper-bar .upper-cont {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .upper-bar .upper-cont {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .upper-bar .upper-cont {
+        max-width: 540px;
+    }
+}
+
+/*End Upper Bar*/
+
+
+/* sign in FORM */
+.logreg-forms {
+    width: 412px;
+    margin: 10vh auto;
+    background-color: #f3f3f3;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+.logreg-forms h1 .selected{
+    color: #b22020;
+}
+.logreg-forms h1{
+    color: #c0c0c0;
+}
+.logreg-forms h1 span{
+    cursor: pointer;
+}
+
+.logreg-forms form {
+    width: 100%;
+    max-width: 410px;
+    padding: 15px;
+    margin: auto;
+}
+
+.logreg-forms .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.logreg-forms .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.logreg-forms .form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.logreg-forms button[type="submit"] {
+    margin-top: 10px;
+}
+.logreg-forms .form-signup{
+    display:none;
+}

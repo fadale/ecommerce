@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"><?php echo lang('Admin');?></a>
+  <a class="navbar-brand" href="dashboard.php"><?php echo lang('Admin');?></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -13,10 +13,13 @@
         <a class="nav-link" href="categories.php"><?php echo lang('Categories');?></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><?php echo lang('item');?></a>
+        <a class="nav-link" href="item.php"><?php echo lang('item');?></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="members.php"><?php echo lang('member');?></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="comment.php"><?php echo lang('comment');?></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"><?php echo lang('statistics');?></a>

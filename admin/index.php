@@ -1,6 +1,7 @@
 <?php
 session_start();
-$noNavbar = '';
+$noNavbar='';
+$noFooter='';
 $pageTitle = 'Login';
 if (isset($_SESSTION['UserName'])) {
     header('Location:dashboard.php');
@@ -38,5 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <input class="form-control mb-3" type="password" name="password" placeholder="Password" autocomplete="new-password" />
     <input class="btn btn-primary btn-block" type="submit" value="Login">
 </form>
-<?php include $tpl . 'footer.php';
+<?php
+if(!isset($noFooter))
+include $tpl . 'footer.php';
 ?>

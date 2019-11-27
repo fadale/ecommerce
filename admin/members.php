@@ -42,21 +42,21 @@ if (isset($_SESSION['UserName'])) { // if fine nay User to go in Member page
                                 foreach ($rows as $row) {
                                     echo '  <tr>
                             
-                                 <td>' . $row['User_ID'] . '</td>
-                                 <td>' . $row['UserName'] . '</td>
-                                  <td>' . $row['Email'] . '</td>
-                                  <td>' . $row['FullName'] . '</td>
-                                  <td>' . $row['Date'] . '</td>
-                                  <td>
-                                      <a href="?do=Edit&u_id=' . $row['User_ID'] . ' " class="btn btn-success"><i class="fas fa-edit"></i> Edit</a>
-                                      <a href="?do=Delete&u_id=' . $row['User_ID'] . '" class="btn btn-danger confirm"><i class="fas fa-trash-alt"></i> Delete</a>
-                                     ';
+                                    <td>' . $row['User_ID'] . '</td>
+                                    <td>' . $row['UserName'] . '</td>
+                                    <td>' . $row['Email'] . '</td>
+                                    <td>' . $row['FullName'] . '</td>
+                                    <td>' . $row['Date'] . '</td>
+                                    <td>
+                                    <a href="?do=Edit&u_id=' . $row['User_ID'] . ' " class="btn btn-success"><i class="fas fa-edit"></i> Edit</a>
+                                    <a href="?do=Delete&u_id=' . $row['User_ID'] . '" class="btn btn-danger confirm"><i class="fas fa-trash-alt"></i> Delete</a>
+                                    ';
 
                                     if ($row['RegStatus'] == 0) {
                                         echo ' <a href="?do=Activate&u_id=' . $row['User_ID'] . '" class="btn btn-info confirm"><i class=""></i>Activate</a>';
                                     }
                                     echo '  </td>
-                            </tr> ';
+                                </tr> ';
                                 }
                                 ?>
 

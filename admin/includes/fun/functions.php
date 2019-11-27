@@ -73,4 +73,19 @@ function Get_Items($item,$table,$order,$limit=5){
   $rows= $stat->fetchAll();
    return $rows;
 }
+
+/**
+ * Get All Data function v1.0
+ * $select : The item to select [EX: * ]
+ * $from : The Table to select from [EX: Users,Category,Products]
+ */
+function Get_All($select, $table){ 
+    global$con;
+    $stat=$con->prepare("SELECT $select FROM $table");
+    $stat->execute();
+    $rows=$stat->fetchAll();
+    return $rows;
+}
+
+
 ?>

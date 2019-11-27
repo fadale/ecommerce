@@ -21,6 +21,13 @@ $(function(){
     $(this).next('.catagorie .info').fadeToggel();
 
    });
+
+   let navH=$('nav').innerHeight();
+   var footerh=$('footer').innerHeight();
+   $('.container').css('min-height',$(window).height()-(navH+footerh));
+   
+   $('.container-fluid').css('min-height',$(window).height()-(navH+footerh));
+
 /*
 *option for view all data in catagories
 */
