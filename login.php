@@ -16,6 +16,14 @@ include 'init.php';
             <i class="fas fa-sign-in-alt"></i> Sign in
         </button>
         </form>
+        <form class="form-signin" action="">
+            <input class="form-control mb-2" placeholder="Email address" required="" autofocus="" type="email" name="email">
+            <input class="form-control" type="password" name="password" placeholder="Password" required="">
+
+            <button class="btn btn-success btn-block" type="submit">
+            <i class="fas fa-sign-in-alt"></i> Sign in
+        </button>
+        </form>
 
         <form class="form-signup" action="" method="post">
         <input type="text" id="user-name" class="form-control mb-2" placeholder="Full name" required="" autofocus="">
