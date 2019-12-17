@@ -1,10 +1,12 @@
 <?php
+
 session_start();
+$pageTitle = 'Awsal';
+include 'init.php'; ?>
 
-include 'init.php';
-?>
-<div class="container"><h1>hello</h1></div>
+<div class="container">
+    
+    </div>
+<?php include $tpl . 'footer.php';
 
-<?php
-include $tpl . 'footer.php';
 ?>

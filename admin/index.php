@@ -3,7 +3,7 @@ session_start();
 $noNavbar='';
 $noFooter='';
 $pageTitle = 'Login';
-if (isset($_SESSTION['UserName'])) {
+if (isset($_SESSION['UserName'])) {
     header('Location:dashboard.php');
 }
 include 'init.php';
@@ -22,7 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($count > 0) {
         $_SESSION['UserName'] = $username; //Register User Name
         $_SESSION['User_ID'] = $row['User_ID']; //Register User IDn
-        echo $_SESSION['User_ID'];
         header('location: dashboard.php');
         exit();
     } else {

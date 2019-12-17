@@ -9,7 +9,6 @@ $js='layout/js/';//JS
 
 include $func.'functions.php';
 include $lang.'en.php';
-include $tpl.'header.php';
 if(! isset($noNavbar)){
     include $tpl.'navbar.php';
 }
