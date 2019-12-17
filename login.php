@@ -99,6 +99,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
 
             </button>
         </form>
+        <form class="form-signin" action="">
+            <input class="form-control mb-2" placeholder="Email address" required="" autofocus="" type="email" name="email">
+            <input class="form-control" type="password" name="password" placeholder="Password" required="">
+
+            <button class="btn btn-success btn-block" type="submit">
+            <i class="fas fa-sign-in-alt"></i> Sign in
+        </button>
+        </form>
 
         <form class="form-signup" action="" method="post">
             <input pattern=".{4,}" title="Username Must be 4 Chars" type="text" name="username" id="user-name" class="form-control mb-2" placeholder="User name" required="" autofocus="">
