@@ -9,3 +9,7 @@
 ![6](https://user-images.githubusercontent.com/9605836/83425079-ff335e80-a435-11ea-99c3-4d928190762e.png)
 
 ## Home Page
+
+![11](https://user-images.githubusercontent.com/9605836/83425732-cc3d9a80-a436-11ea-9f44-7f35235da682.png)
+![22](https://user-images.githubusercontent.com/9605836/83425738-cd6ec780-a436-11ea-908a-b22ad6e19268.png)
+![33](https://user-images.githubusercontent.com/9605836/83425745-ce9ff480-a436-11ea-82f3-db6796981280.png)
